@@ -9,5 +9,17 @@ with col1:
 
 with col2:
     st.title("Roberto Alim")
-    content = "Hi! I am Roberto Alim. I graduated in 2006 with a Bachelor of Science in Computer Science degree on my sleeves. I am a Software Developer who excels in Python programming, specializes in the Django framework, and possesses extensive experience in database management. My diverse portfolio showcases my ability to develop tailored solutions for various business needs, making me a valuable asset in the field of software development."
+    content = """
+        Hi! I am Roberto Alim. I graduated in 2006 with a Bachelor of Science in Computer Science degree from 
+        the STI College Parañaque Philippines. I am a Software Developer who excels in Python programming, 
+        specializes in the Django framework, and possesses extensive experience in database management. 
+        My diverse portfolio showcases my ability to develop tailored solutions for various business needs, 
+        making me a valuable asset in the field of software development.
+    """
     st.info(content)
+
+content2 = """
+Below you can find some of the apps I have built in Python. Feel free to contact me! 
+You can also find me on different social media platform
+"""
+st.write(content2)
